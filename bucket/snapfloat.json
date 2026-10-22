@@ -3,6 +3,13 @@
     "description": "The macOS screenshot thumbnail for Windows: a floating screenshot you drag into any app, with markup, copy text (OCR) and one-click privacy blur. Made by Shaurya Shakya.",
     "homepage": "https://github.com/shaurya-8055/snapfloat",
     "license": "MIT",
+    "notes": [
+        "To update: quit SnapFloat from the tray first (Scoop won't replace a running app), then: scoop update snapfloat",
+        "For 'Copy text' and 'Hide private info': scoop install tesseract"
+    ],
+    "suggest": {
+        "OCR (Copy text, Hide private info)": "main/tesseract"
+    },
     "url": "https://github.com/shaurya-8055/snapfloat/releases/download/v1.1.0/SnapFloat.exe",
     "hash": "350a26b9b353ca2f8d2a7116a6a6415675f9018d11ae1f16e47629f12d6351cd",
     "bin": "SnapFloat.exe",
